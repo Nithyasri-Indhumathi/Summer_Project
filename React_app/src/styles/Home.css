@@ -1,0 +1,94 @@
+/*.home {
+  
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; 
+}
+
+.headerContainer {
+  text-align: center;
+  padding: 10px;
+  background-color:  #c2e7c1;
+  border-radius: 10px;
+}
+
+.headerContainer h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.headerContainer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.headerContainer p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.headerContainer button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.headerContainer button:hover {
+  background-color: #0056b3;
+}
+*/
+.home {
+  /* Your existing styles for the background image and positioning */
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 80px); /* Adjust the value based on your navigation bar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; /* Add a small gap from the navigation bar */
+}
+
+.headerContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.549); /* Adjust the alpha value for transparency */
+  border-radius: 10px;
+}
+
+.headerContainer h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.headerContainer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.headerContainer p {
+  font-size: 1.3rem;
+  font-weight: bold; /* Add this line to make the paragraph text bold */
+  text-align: center;
+}
+
+.headerContainer button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.headerContainer button:hover {
+  background-color: #0056b3;
+}

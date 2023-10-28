@@ -1,0 +1,160 @@
+.learnMore {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .learnMore h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .learnMore h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .learnMore p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .learnMore ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .learnMore li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Accordion item */
+  .accordionItem {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .accordionItem .title {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordionItem .title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(-45deg);
+    width: 8px;
+    height: 8px;
+    border: 2px solid #333;
+    border-left: none;
+    border-top: none;
+  }
+  
+  .accordionItem.expanded .title::before {
+    transform: translateY(-50%) rotate(135deg);
+  }
+  
+  .accordionItem .content {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    display: none;
+  }
+  
+  /* Expanded accordion item */
+  .accordionItem.expanded .content {
+    display: block;
+  }
+  
+  /* Why Choose - Accordion */
+  .whyChooseBox {
+    margin-top: 40px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .whyChooseTitle {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff; /* White background color before clicking */
+    color: #000; /* Black text color */
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .whyChooseTitle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(-45deg);
+    width: 8px;
+    height: 8px;
+    border: 2px solid #000; /* Black arrow color */
+    border-left: none;
+    border-top: none;
+  }
+  
+  .whyChooseTitle.expanded::before {
+    transform: translateY(-50%) rotate(135deg);
+  }
+  
+  .whyChooseContent {
+    display: none;
+    margin-top: 10px;
+    background-color: #ccc; /* Ash background color after clicking */
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Expanded Why Choose accordion item */
+  .whyChooseTitle.expanded {
+    background-color: #ccc; /* Ash background color after clicking */
+  }
+  
+  .whyChooseContent.expanded {
+    display: block;
+  }
+  
+  /* Join the Movement - Box */
+  .joinMovementBox {
+    background-color: #c2e7c1; /* Light green background color */
+    color:black ;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .joinMovementBox.expanded {
+    background-color: #c2e7c1; /* Light green background color */
+  }

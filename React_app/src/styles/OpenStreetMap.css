@@ -1,0 +1,32 @@
+/* OpenStreetMapButton styles */
+.center-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will vertically center the button on the screen */
+  }
+  
+  .button {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Small button style */
+  .small-button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
