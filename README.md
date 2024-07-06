@@ -1,5 +1,5 @@
 # Summer_Project
-https://nithyasri-indhumathi.github.io/weblink/(tap here for a quick preview of my project)
+https://nithyasri-indhumathi.github.io/weblink/   (tap here for a quick preview of my project)
 # Irregular Polygon Subdivider for Farmer Use Case
 # Problem Statement
 Design and implement an algorithm or software solution that can subdivide irregularly shaped fields (represented as polygons) into smaller sections based on user-defined parameters. The solution should provide an efficient and automated way for farmers to divide their fields, allowing them to specify the desired number of sections or the target area for each section
